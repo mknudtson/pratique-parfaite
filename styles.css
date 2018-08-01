@@ -1,0 +1,23 @@
+h1 {
+    color: #add8e6;
+}
+
+h2 {
+    font-style: italic;
+}
+
+/* CHIPS */
+.chip {
+    display: inline;
+    padding: 0 25px;
+    /* height: 50px; */
+    font-size: 16px;
+    line-height: 1.5em;
+    border-radius: 25px;
+    background-color: #add8e6;
+}
+
+.chip:hover {
+    color: red;
+    cursor: pointer;
+}
