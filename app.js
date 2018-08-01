@@ -47,7 +47,7 @@ function showVocabList(){
     document.getElementById("list-area").innerHTML = ""; // prevents list printing repeatedly each time a term is added
     for (let i = 0; i < vocabulary.length; i++) {
         let pair = document.createElement("p");
-        pair.innerHTML = `${i + 1}: <div class="chip">EN: ${vocabulary[i].EN}</div><div class="chip">FR: ${vocabulary[i].FR}</div>`;
+        pair.innerHTML = `${i + 1}: <span>EN: ${vocabulary[i].EN}</span><span>FR: ${vocabulary[i].FR}</span>`;
         // console.log(pair); // initial testing
         // show(pair); // appends to body, not to div
         addToListArea(pair);

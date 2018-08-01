@@ -7,8 +7,8 @@ h2 {
 }
 
 /* CHIPS */
-.chip {
-    display: inline;
+span {
+    /* display: inline; */
     padding: 0 25px;
     /* height: 50px; */
     font-size: 16px;
@@ -17,7 +17,7 @@ h2 {
     background-color: #add8e6;
 }
 
-.chip:hover {
+span:hover {
     color: red;
     cursor: pointer;
 }
